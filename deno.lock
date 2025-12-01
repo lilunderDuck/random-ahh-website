@@ -1,6 +1,7 @@
 {
   "version": "5",
   "specifiers": {
+    "npm:@solidjs/router@~0.15.4": "0.15.4_solid-js@1.9.10__seroval@1.3.2",
     "npm:solid-devtools@~0.34.3": "0.34.3_solid-js@1.9.10__seroval@1.3.2_vite@7.2.2__picomatch@4.0.3_@babel+core@7.28.5",
     "npm:solid-js@^1.9.5": "1.9.10_seroval@1.3.2",
     "npm:typescript@^5.7.2": "5.9.3",
@@ -538,6 +539,12 @@
         "solid-js"
       ]
     },
+    "@solidjs/router@0.15.4_solid-js@1.9.10__seroval@1.3.2": {
+      "integrity": "sha512-WOpgg9a9T638cR+5FGbFi/IV4l2FpmBs1GpIMSPa0Ce9vyJN7Wts+X2PqMf9IYn0zUj2MlSJtm1gp7/HI/n5TQ==",
+      "dependencies": [
+        "solid-js"
+      ]
+    },
     "@types/babel__core@7.20.5": {
       "integrity": "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==",
       "dependencies": [
@@ -884,6 +891,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@solidjs/router@~0.15.4",
         "npm:solid-devtools@~0.34.3",
         "npm:solid-js@^1.9.5",
         "npm:typescript@^5.7.2",
