@@ -11,13 +11,15 @@
 }
 
 .loadingScreen {
-  animation: animation_fadeAndZoomOut .2s 2s ease-out forwards;
+  /* animation: animation_fadeAndZoomOut .2s 2s ease-out forwards; */
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--background);
+  z-index: 1000;
 }
 
 @keyframes loader__beforeAnimation {
